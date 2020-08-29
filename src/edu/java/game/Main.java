@@ -1,17 +1,19 @@
 package edu.java.game;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.EnumSet;
+import java.util.*;
+
 import static edu.java.game.Flowers.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        EnumSet<Flowers> flowersAll = EnumSet.of(ROSE,LILY,TULIP,LOTUS,ORCHID);
+        TreeSet<Flowers> flowersSet = new TreeSet<>();
+        flowersSet.add(new Flowers("Rose",5,100,30));
+        flowersSet.add(new Flowers("Lilia", 3, 80,20));
+        flowersSet.add(new Flowers("Lotus",4,90,28));
+        flowersSet.add(new Flowers("Orchid",2,75,25));
+        System.out.println(flowersSet);
 
-        flowersAll.forEach(int uno : flowersAll) {;
 
 
     }
