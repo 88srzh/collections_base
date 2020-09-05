@@ -14,6 +14,9 @@ public class Main {
         flowersSet.add(new Flowers("Orchid",2,75,25));
         System.out.println(flowersSet);
 
+        SortedSet<Flowers> stems = flowersSet.subSet(new Flowers("Orchid", 2, 75, 25), new Flowers("Rose", 5, 100, 30));
+        System.out.println(stems);
+
 
 
     }
