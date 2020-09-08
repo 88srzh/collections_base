@@ -1,5 +1,6 @@
 package edu.java.game;
 
+import java.util.Iterator;
 import java.util.Objects;
 
 public class Flowers implements Comparable<Flowers> {
@@ -87,5 +88,7 @@ public class Flowers implements Comparable<Flowers> {
                 ", stem=" + stem +
                 '}';
     }
+
+
 }
 
